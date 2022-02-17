@@ -182,14 +182,21 @@ section {
 }
 
 /* Foto Styles */
-
- .sneekPeek {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
+.gall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.gall h1 {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  margin: 2rem 0;
+  font-size: 3 rem;
+  text-align: center;
 }
 
-  divgallery {
+  gallery {
     margin: 5px;
     border: 1px solid rgb(105, 104, 104);
     float: left;
