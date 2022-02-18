@@ -38,6 +38,13 @@ body {
   padding: 1rem 1rem;
 }
 
+.container img {
+  width: 100%;
+  height: auto;
+  image-resolution: 400px;
+  padding: 5%;
+  border-radius: 10%;
+}
 /* HEADER */
 
 header {
@@ -205,18 +212,20 @@ section {
     
   }
   
-  div.gallery:hover {
+  .gallery:hover {
     border: 1px solid #777;
+    border-radius: 10%;
   }
   
-  div.gallery img {
+  .gallery img {
     width: 100%;
     height: auto;
     image-resolution: 400px;
-    padding: 10%;
+    padding: 5%;
+    border-radius: 10%;
   }
   
-  div.desc {
+  .desc {
     padding: 30px;
     text-align: center;
   }
